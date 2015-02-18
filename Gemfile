@@ -5,6 +5,7 @@ gem 'rails-api'
 gem 'spring', :group => :development
 gem 'pg'
 gem 'active_model_serializers'
+gem 'devise'
 
 group :test do
   gem 'rspec-rails'
