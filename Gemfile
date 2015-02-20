@@ -7,6 +7,10 @@ gem 'pg'
 gem 'active_model_serializers'
 gem 'devise'
 
+group :development, :test do
+  gem 'pry'
+end
+
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
