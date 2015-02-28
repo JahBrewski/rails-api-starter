@@ -4,6 +4,7 @@ gem 'rails', '4.1.8'
 gem 'rails-api'
 gem 'spring', :group => :development
 gem 'pg'
+gem 'puma'
 gem 'active_model_serializers'
 gem 'devise'
 
