@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-ParkSharkApi::Application.config.secret_token = 'acbe38fca8478a4b2272b743b3efe9e92e232e526697338c35ddd4fa2fdaefeff1bf6413b3cc6b80d2fc721d13d88d04d4cee9e72c4ebaaa45b56fb3d1c5461a'
+RailsApiStarter::Application.config.secret_token = 'acbe38fca8478a4b2272b743b3efe9e92e232e526697338c35ddd4fa2fdaefeff1bf6413b3cc6b80d2fc721d13d88d04d4cee9e72c4ebaaa45b56fb3d1c5461a'

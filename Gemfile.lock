@@ -162,6 +162,7 @@ DEPENDENCIES
   rails (= 4.2.0)
   rails-api
   rails_12factor
+  responders (~> 2.0)
   rspec-rails (~> 2.14)
   shoulda-matchers
   spring

@@ -8,6 +8,7 @@ gem 'puma'
 gem 'active_model_serializers'
 gem 'devise'
 gem 'rails_12factor'
+gem 'responders', '~> 2.0'
 
 group :development, :test do
   gem 'pry'
